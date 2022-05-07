@@ -16,6 +16,13 @@ describe("Date Picker", () => {
 
     cy.get("[data-testid=date-picker]")
       .find("input")
-      .should("have.value", new Date().toLocaleDateString());
+      .should(
+        "have.value",
+        new Date().toLocaleDateString("en-US", {
+          month: "2-digit",
+          day: "2-digit",
+          year: "numeric",
+        })
+      );
   });
 });
