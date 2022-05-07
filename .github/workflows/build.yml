@@ -35,3 +35,12 @@ jobs:
           install: false
           start: yarn dev:site
           wait-on: http://localhost:3000
+      - name: Cypress reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: |
+            cypress/reports/
+            cypress/screenshots/
+            cypress/videos/
+          retention-days: 1
