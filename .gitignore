@@ -159,3 +159,6 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node,yarn
 
 .idea/
+cypress/videos
+cypress/screenshots
+cypress/reports
