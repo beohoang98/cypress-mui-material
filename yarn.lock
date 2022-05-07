@@ -2407,9 +2407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress-mui-controls@workspace:.":
+"cypress-mui-material@workspace:.":
   version: 0.0.0-use.local
-  resolution: "cypress-mui-controls@workspace:."
+  resolution: "cypress-mui-material@workspace:."
   dependencies:
     "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
