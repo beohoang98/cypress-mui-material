@@ -1,0 +1,17 @@
+changelog:
+  categories:
+    - title: Fixed
+      labels:
+        - fix
+    - title: Added
+      labels:
+        - feat
+        - feature
+    - title: Improvement
+      labels:
+        - improve
+        - refactor
+    - title: BREAKING CHANGE
+      labels:
+        - breaking
+        - breaking-change
