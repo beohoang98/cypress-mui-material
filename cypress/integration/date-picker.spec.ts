@@ -10,4 +10,12 @@ describe("Date Picker", () => {
       .find("input")
       .should("have.value", "10/15/2013");
   });
+
+  it("Select Today", () => {
+    cy.get("[data-testid=date-picker]").muiChooseDate(new Date());
+
+    cy.get("[data-testid=date-picker]")
+      .find("input")
+      .should("have.value", new Date().toLocaleDateString());
+  });
 });
