@@ -1,5 +1,5 @@
 {
-  "name": "cypress-mui-controls",
+  "name": "cypress-mui-material",
   "version": "0.1.0",
   "packageManager": "yarn@3.2.0",
   "types": "dist/index.d.ts",
